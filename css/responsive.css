@@ -163,9 +163,6 @@
 
 /*Малые девайсы («ландшафтные», < 768px)*/
 @media (max-width: 767.98px) {
-    .banner-connect {
-        flex-wrap: wrap;
-    }
 
     .banner-connect__connect__phone {
         font-size: 18px;
@@ -269,9 +266,13 @@
 
 /*Экстрамалые девайсы («телефоны», < 576px)*/
 @media (max-width: 575.98px) {
+    .banner-connect {
+        padding: 0 15px;
+    }
+
     .banner-connect__connect__phone {
-        font-size: 16px;
-        padding: 15px 15px 15px 60px;
+        font-size: 12px;
+        padding: 10px 5px 10px 40px;
         margin-left: 0;
     }
 
@@ -319,11 +320,18 @@
 
     .services-list {
         font-size: 16px;
+        padding: 0;
     }
 
     .banner-connect__connect__phone_icon {
         left: 10px;
-        top: 9px;
+        top: 5px;
+        width: 25px;
+    }
+
+    .banner-connect__connect__watsapp > img {
+        width: 44px;
+        margin-left: -30px;
     }
 
     .banner-title {
@@ -348,26 +356,17 @@
     }
 
     .banner-connect__logo {
-        text-align: center;
+        margin-top: 0;
     }
 
     .banner-connect__logo > img {
         width: 85%;
+        margin-right: -15px;
     }
 
     .banner-connect__connect {
         width: 100%;
         justify-content: space-around;
-    }
-
-    .banner-connect__connect__watsapp {
-        padding-left: 10px;
-        margin-top: -5px;
-    }
-
-    .banner-connect__connect__watsapp > img {
-        width: 60px;
-        height: auto;
     }
 
     .promotion-form__send-icon {
@@ -394,5 +393,30 @@
 
     .footer__social__icon:first-child > img {
         margin-left: 0;
+    }
+
+    .services-img__1_mobile {
+        display: block;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        direction: rtl;
+        position: relative;
+    }
+
+    .services-img__1_mobile > img {
+        width: 230px;
+    }
+
+    .services-img__1_mobile::before {
+        display: block;
+        content: "";
+        width: 230px;
+        height: 100%;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        border: 3px solid #977B39;
+        border-radius: 10px;
+        z-index: 0;
     }
 }
