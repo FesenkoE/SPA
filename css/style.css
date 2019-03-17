@@ -35,10 +35,9 @@ body {
 .banner-connect__connect__phone {
     text-decoration: none;
     color: #ffffff;
-    margin-left: 30px;
     font-size: 30px;
     background: linear-gradient(to bottom, #AE5C2E, #ECB452);
-    padding: 20px 80px 20px 30px;
+    padding: 20px 30px 20px 80px;
     line-height: 24px;
     display: block;
     border-radius: 6px;
@@ -47,9 +46,13 @@ body {
     box-shadow: 0 0 15px 0 #c2c2c2;
 }
 
+.banner-connect__connect__watsapp {
+    margin-left: 30px;
+}
+
 .banner-connect__connect__phone_icon {
     position: absolute;
-    right: 30px;
+    left: 30px;
     top: 15px;
 }
 
@@ -457,13 +460,25 @@ body {
     font-weight: bold;
     font-size: 30px;
     color: #ffffff;
-    padding-left: 50px;
+    padding-left: 80px;
+    width: 280px;
+
+}
+
+.footer__phone::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/phone.png");
+    position: absolute;
+    left: 25px;
 }
 
 .footer__phone__icon {
     position: absolute;
     top: 0;
-    right: -60px;
+    left: 30px;
 }
 
 .footer__text {
@@ -478,6 +493,15 @@ body {
 
 .footer__social__icon:nth-child(2) {
     margin-right: 15px;
+}
+
+.footer__social__icon > img {
+    width: 68px;
+    height: 68px;
+}
+
+.footer__social__icon:nth-child(3) > img {
+    margin-right: -10px;
 }
 
 

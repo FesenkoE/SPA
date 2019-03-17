@@ -16,7 +16,6 @@ jQuery(function () {
                 settings: {
                     slidesToShow: 1,
                     dots: false,
-                    arrows: false,
                 }
             },
         ]
