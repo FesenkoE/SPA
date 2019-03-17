@@ -343,4 +343,11 @@
     .promotion-form__label_checkbox {
         font-size: 16px;
     }
+
+    .banner {
+        background-image: url("../img/bg-mobile.png");
+        background-size: contain;
+    }
+
+
 }
