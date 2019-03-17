@@ -1,0 +1,346 @@
+/*Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Большие девайсы (большие десктопы, < 1200px)*/
+@media (max-width: 1199.98px) {
+    .banner-connect__logo {
+        margin-right: 3%;
+    }
+
+    .banner-connect__connect {
+        margin-left: 5%;
+    }
+
+    .banner-title__text {
+        font-size: 50px;
+    }
+
+    .services-img__1__img {
+        width: 90%;
+    }
+
+    .services-img__2__img {
+        width: 90%;
+    }
+
+    .services-img__3__img {
+        width: 90%;
+    }
+
+    .services-img__2 {
+        right: -30px;
+    }
+
+    .services-img__1 {
+        left: -90px;
+        top: 470px;
+    }
+
+    .services-img__3 {
+        left: -110px;
+        top: 150px;
+    }
+
+    .services-list {
+        font-size: 25px;
+    }
+
+    .services-img__1::after {
+        width: 90%;
+        right: 10px;
+    }
+
+    .services-img__2::after {
+        width: 90%;
+        right: 0;
+    }
+
+    .services-img__3::after {
+        width: 90%;
+    }
+
+    .comments-title__text {
+        font-size: 32px;
+    }
+
+    .comments-scontent__slider__item__text {
+        font-size: 14px;
+    }
+
+    .coma-img > img {
+        width: 70%;
+    }
+
+    .coma-img {
+        right: -10px;
+    }
+
+    .footer__phone {
+        font-size: 25px;
+    }
+
+    .footer__text {
+        font-size: 25px;
+    }
+}
+
+/*Средние девайсы («таблетки», < 992px)*/
+@media (max-width: 991.98px) {
+    .comments-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .services-img {
+        display: none;
+    }
+
+    .comments-title__text {
+        line-height: 40px;
+        padding-top: 40px;
+    }
+
+    .services-list {
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .services-list__item {
+        padding-left: 0;
+    }
+
+    .services {
+        padding: 130px 50px 50px;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .footer__phone {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 60px;
+        margin-top: 25px;
+    }
+
+    .footer__text {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .footer__social {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .footer__phone__icon {
+        top: -5px;
+        margin-right: 280px;
+    }
+
+    .services-list__item__img > img {
+        width: 85%;
+    }
+
+    .services-list__item__img {
+        right: -125px;
+    }
+
+    .banner-title__text {
+        margin: 0;
+    }
+}
+
+/*Малые девайсы («ландшафтные», < 768px)*/
+@media (max-width: 767.98px) {
+    .banner-connect {
+        flex-wrap: wrap;
+    }
+
+    .banner-connect__connect__phone {
+        font-size: 18px;
+    }
+
+    .banner-connect__connect {
+        margin: 0 auto;
+    }
+
+    .banner-connect__logo {
+        margin: 15px auto;
+    }
+
+    .banner-title__text {
+        font-size: 34px;
+    }
+
+    .promotion {
+        padding: 0 15px;
+    }
+
+    .promotion-title {
+        font-size: 20px;
+    }
+
+    .promotion-block {
+        padding: 30px 15px 20px;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .promotion-form__label {
+        width: 100%;
+    }
+
+    .promotion-form__send-icon {
+        left: 120px;
+    }
+
+    .services {
+        padding: 60px 15px 20px;
+    }
+
+    .services-list {
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+    .services-list__item__img > img {
+        width: 65px;
+    }
+
+    .services-list__item__img {
+        right: -85px;
+    }
+
+    .comments-title {
+        height: 80px;
+    }
+
+    .comments-title__img {
+        top: -50px;
+        right: -80px;
+        width: 50%;
+    }
+
+    .comments-title__text {
+        line-height: 25px;
+        font-size: 16px;
+        margin-right: 100px;
+        padding-top: 16px;
+    }
+
+    .comments-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .comments-scontent__slider__item__star {
+        margin-left: 6px;
+    }
+
+    .coma-img {
+        right: -40px;
+        top: 15px;
+    }
+
+    .footer__container {
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .footer__phone__icon {
+        margin-right: 125px;
+    }
+
+
+}
+
+/*Экстрамалые девайсы («телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+    .banner-connect__connect__phone {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    .comments-title__img {
+        top: -43px;
+        right: -70px;
+        width: 53%;
+    }
+
+    .coma-img > img {
+        width: 40%;
+    }
+
+    .coma-img {
+        right: -55px;
+    }
+
+    .footer__social__icon:last-child {
+        margin: 0;
+    }
+
+    .footer__phone__icon {
+        margin-right: 80px;
+    }
+
+    .comments-scontent__slider__item {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .comments-scontent__slider__item__star {
+        margin-left: 14px;
+    }
+
+    .comments-title {
+        height: 70px;
+    }
+
+    .comments-title__text {
+        line-height: 20px;
+        margin-right: 90px;
+        font-size: 14px;
+    }
+
+    .comments-content {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .services-list {
+        font-size: 16px;
+    }
+
+    .banner-connect__connect__phone {
+        padding: 20px 70px 20px 20px;
+    }
+
+    .banner-connect__connect__phone_icon {
+        right: 26px;
+    }
+
+    .banner-title {
+        padding: 0 15px;
+    }
+
+    .banner-title__text {
+        font-size: 30px;
+    }
+
+    .promotion-subtitle {
+        font-size: 20px;
+    }
+
+    .promotion-form__label_checkbox {
+        font-size: 16px;
+    }
+}
