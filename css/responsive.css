@@ -78,6 +78,8 @@
 
     .footer__text {
         font-size: 25px;
+        width: 25%;
+        text-align: center;
     }
 
     .footer__social__icon > img {
@@ -146,10 +148,6 @@
         top: 0;
         left: 220px;
 
-    }
-
-    .services-list__item__img > img {
-        width: 85%;
     }
 
     .services-list__item__img {
@@ -427,5 +425,10 @@
 
     .slick-next {
         right: -10px;
+    }
+
+    .input-wrap {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 }
