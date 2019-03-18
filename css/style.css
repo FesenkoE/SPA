@@ -187,11 +187,11 @@ body {
 }
 
 .promotion-form__send-icon {
-    display: block;
     position: absolute;
-    left: 75px;
-    top: 37px;
+    left: calc(50% - 75px);
 }
+
+
 
 .services {
     display: flex;
@@ -231,6 +231,11 @@ body {
     position: absolute;
     top: 0;
     right: -140px;
+}
+
+.services-list__item__img > img {
+  width: 90px;
+    height: auto;
 }
 
 .services-img__1 {
@@ -506,6 +511,11 @@ body {
 
 .services-img__1_mobile {
     display: none;
+}
+
+.promotion-form__send-icon > img {
+    width: 40px;
+    height: auto;
 }
 
 

@@ -325,7 +325,7 @@
 
     .banner-connect__connect__phone_icon {
         left: 10px;
-        top: 5px;
+        top: 8px;
         width: 25px;
     }
 
@@ -370,7 +370,8 @@
     }
 
     .promotion-form__send-icon {
-        left: 105px;
+        left: calc(50% - 75px);
+        top: 30px;
     }
 
     .comments-title__text {
@@ -418,5 +419,13 @@
         border: 3px solid #977B39;
         border-radius: 10px;
         z-index: 0;
+    }
+
+    .slick-prev {
+        left: -8px;
+    }
+
+    .slick-next {
+        right: -10px;
     }
 }
