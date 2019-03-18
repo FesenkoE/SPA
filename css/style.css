@@ -169,7 +169,7 @@ body {
     display: block;
     position: absolute;
     right: 25px;
-    top: 40px;
+    top: 35px;
 }
 
 .promotion-form__name-icon {
@@ -183,7 +183,7 @@ body {
     display: block;
     position: absolute;
     right: 30px;
-    top: 40px;
+    top: 35px;
 }
 
 .promotion-form__send-icon {
@@ -524,6 +524,21 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.promotion-form__email-icon > img {
+    width: 25px;
+    height: auto;
+}
+
+.promotion-form__name-icon > img {
+    width: 25px;
+    height: auto;
+}
+
+.promotion-form__phone-icon > img {
+    width: 25px;
+    height: auto;
 }
 
 
