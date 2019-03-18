@@ -404,6 +404,7 @@
 
     .services-img__1_mobile > img {
         width: 230px;
+        box-shadow: none;
     }
 
     .services-img__1_mobile::before {
