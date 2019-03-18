@@ -385,6 +385,8 @@ body {
 
 .comments-scontent__slider__item__star {
     margin-left: 12px;
+    width: 32px;
+    height: 32px;
 }
 
 .comments-scontent__slider__item__name {
