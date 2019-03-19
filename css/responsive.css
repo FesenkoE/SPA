@@ -192,6 +192,7 @@
 
     .banner {
         height: auto;
+        background-repeat: no-repeat;
     }
 
     .promotion-form__label {
@@ -226,7 +227,7 @@
     .comments-title__img {
         top: -50px;
         right: -80px;
-        width: 50%;
+        width: 170px;
     }
 
     .comments-title__text {
@@ -246,7 +247,7 @@
     }
 
     .coma-img {
-        right: -40px;
+        right: -20px;
         top: 15px;
     }
 
@@ -276,8 +277,8 @@
 
     .comments-title__img {
         top: -43px;
-        right: -70px;
-        width: 53%;
+        right: -60px;
+        width: 140px;
     }
 
     .coma-img > img {
@@ -351,6 +352,7 @@
     .banner {
         background-image: url("../img/bg-mobile.png");
         background-size: auto;
+        background-repeat: no-repeat;
     }
 
     .banner-connect__logo {
@@ -405,19 +407,6 @@
     .services-img__1_mobile > img {
         width: 230px;
         box-shadow: none;
-    }
-
-    .services-img__1_mobile::before {
-        display: block;
-        content: "";
-        width: 230px;
-        height: 100%;
-        position: absolute;
-        top: 10px;
-        right: 30px;
-        border: 3px solid #977B39;
-        border-radius: 10px;
-        z-index: 0;
     }
 
     .slick-prev {
