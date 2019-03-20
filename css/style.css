@@ -310,6 +310,11 @@ body {
     width: 270px;
 }
 
+.comments {
+    background-image: url("../img/bg-footer.png");
+    background-repeat: no-repeat;
+}
+
 .comments-title {
     max-width: 80%;
     height: 170px;
@@ -326,10 +331,6 @@ body {
 
 .comments-content {
     padding: 100px 100px 150px 100px;
-    background-image: url("../img/bg-footer.png");
-    background-repeat: no-repeat;
-    background-position: 50% 300px;
-    background-size: cover;
 }
 
 .comments-title__text {
@@ -445,7 +446,7 @@ body {
 
 .footer {
     min-height: 145px;
-    background-color: #7C7C7C;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .footer__container {

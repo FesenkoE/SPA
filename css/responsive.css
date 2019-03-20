@@ -89,6 +89,10 @@
         height: auto;
     }
 
+    .comments {
+        background-position-x: -400px;
+    }
+
 }
 
 /*Средние девайсы («таблетки», < 992px)*/
@@ -158,6 +162,11 @@
 
     .banner-title__text {
         margin: 0;
+    }
+
+    .comments {
+        background-position-y: 40px;
+        background-position-x: -580px;
     }
 }
 
@@ -260,6 +269,11 @@
 
     .footer__phone__icon {
         margin-right: 125px;
+    }
+    
+    .comments {
+        -webkit-background-size: cover;
+        background-size: cover;
     }
 
 
