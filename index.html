@@ -38,15 +38,15 @@
         <div class="promotion-block">
             <p class="promotion-subtitle">50 ₪ הנחה לעיסוי של 50 דקות + כניסה לבריכה, ג'קוזי, סאונה וחמאם טורקי
                 אמיתי</p>
-            <form action="#" class="promotion-form" method="post">
+            <form action="send.php" class="promotion-form" method="post">
                 <div class="input-wrap">
                     <label for="email" class="promotion-form__label">
                         <span class="promotion-form__email-icon"><img src="img/envelope.svg" alt=""></span>
-                        <input class="promotion-form__input" type="email" id="email" placeholder="אי מייל" required>
+                        <input class="promotion-form__input" type="email" name="email" id="email" placeholder="אי מייל" required>
                     </label>
                     <label for="name" class="promotion-form__label">
                         <span class="promotion-form__name-icon"><img src="img/avatar.svg" alt=""></span>
-                        <input class="promotion-form__input" type="text" id="name" placeholder="שם מלא" required>
+                        <input class="promotion-form__input" type="text" name="name" id="name" placeholder="שם מלא" required>
                     </label>
                 </div>
                 <div class="input-wrap">
@@ -56,11 +56,11 @@
                     </label>
                     <label for="phone" class="promotion-form__label">
                         <span class="promotion-form__phone-icon"><img src="img/phone-call.svg" alt=""></span>
-                        <input class="promotion-form__input" type="text" id="phone" placeholder="טלפון" required>
+                        <input class="promotion-form__input" name="phone" type="text" id="phone" placeholder="טלפון" required>
                     </label>
                 </div>
                 <label for="check-form" class="promotion-form__label promotion-form__label_checkbox">
-                    <input type="checkbox" id="check-form" checked>
+                    <input type="checkbox" id="check-form" name="subscribe" value="check" checked>
                     אני מעוניין לקבל מידע על מבצעים והטבות בדואר האלקטרוני וב-SMS
                 </label>
             </form>
