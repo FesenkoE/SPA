@@ -10,15 +10,15 @@ if ($subscribe) {
 
 
 // Сообщение
-$message =  $name . ":את השם"  . "<br>" . $phone . "טלפון" . "<br>" . $subscribe;
+$message = $name . " :את השם"  . "\r\n" . $phone . " :טלפון" . "\r\n" . $subscribe;
+
 
 // На случай если какая-то строка письма длиннее 70 символов мы используем wordwrap()
 $message = wordwrap($message, 100, "\r\n");
 
 // Отправляем
-mail('fesenkoe@ukr.net', '  Заказ бильярд  ! ', $message);
+mail('fesenkoe2018@gmail.com', '  סדר ! ', $message);
 
-$text = " Спасибо, $name .  Ваш заказ принят. Мы Вам перезвоним.  " ;
 echo ' <script language="JavaScript"> window.location.href = "index.html"</script> ';
 
 
