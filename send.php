@@ -17,7 +17,7 @@ $message = $name . " :את השם"  . "\r\n" . $phone . " :טלפון" . "\r\n" 
 $message = wordwrap($message, 100, "\r\n");
 
 // Отправляем
-mail('fesenkoe2018@gmail.com', '  סדר ! ', $message);
+mail('your@email', '  סדר ! ', $message);
 
 echo ' <script language="JavaScript"> window.location.href = "index.html"</script> ';
 
